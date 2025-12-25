@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts
+public/build/
+public/hot
+
+# Environment files
+.env
+.env.*
+
+# Logs
+storage/logs/
+*.log
+
+# Cache
+bootstrap/cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Testing
+coverage/
+phpunit.xml
+.phpunit.result.cache
+
+# Documentation
+README.md
+*.md
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Database
+database/database.sqlite
