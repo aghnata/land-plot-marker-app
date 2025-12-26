@@ -24,4 +24,11 @@ export default defineConfig({
     esbuild: {
         jsx: 'automatic',
     },
+    build: {
+        rollupOptions: {
+            output: {
+                manualChunks: undefined,
+            },
+        },
+    },
 });
